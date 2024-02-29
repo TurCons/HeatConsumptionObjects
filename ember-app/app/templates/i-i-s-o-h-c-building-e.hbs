@@ -1,0 +1,96 @@
+<h3 class="ui header">{{t 'forms.i-i-s-o-h-c-building-e.caption'}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=model.errors}}
+    </div>
+  </div>
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button type="submit" class="ui button save-button" {{action 'save'}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button type="submit" class="ui button save-del-button" {{action 'delete'}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button type="submit" class="ui button close-button" {{action 'close'}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field">
+  <label>{{t 'forms.i-i-s-o-h-c-building-e.networkArea-caption'}}</label>
+  {{
+    flexberry-lookup
+    choose='showLookupDialog'
+    remove='removeLookupValue'
+    value=model.networkArea
+    
+    relationName='networkArea'
+    projection='NetworkAreaL'
+    title=(t 'forms.i-i-s-o-h-c-building-e.networkArea-caption')
+    readonly=readonly
+    componentName="networkAreaLookup"
+  }}
+  {{flexberry-validationmessage error=model.errors.networkArea pointing="pointing"}}
+</div>
+
+<div class="field">
+  {{
+    flexberry-field
+    placeholder=(t 'components.flexberry-field.placeholder')
+    readonly=true
+    required=true
+    value=model.networkArea.areaName
+    class=(if model.errors.networkArea.areaName 'error' '')
+    label=(t 'forms.i-i-s-o-h-c-building-e.networkArea.areaName-caption')
+  }}
+  {{flexberry-validationmessage error=model.errors.networkArea.areaName pointing="pointing"}}
+</div>
+
+<div class="field">
+  {{
+    flexberry-field
+    placeholder=(t 'components.flexberry-field.placeholder')
+    readonly=readonly
+    required=true
+    value=model.address
+    class=(if model.errors.address 'error' '')
+    label=(t 'forms.i-i-s-o-h-c-building-e.address-caption')
+  }}
+  {{flexberry-validationmessage error=model.errors.address pointing="pointing"}}
+</div>
+
+<div class="field">
+  {{
+    flexberry-field
+    placeholder=(t 'components.flexberry-field.placeholder')
+    readonly=readonly
+    required=true
+    value=model.resultSquare
+    class=(if model.errors.resultSquare 'error' '')
+    label=(t 'forms.i-i-s-o-h-c-building-e.resultSquare-caption')
+  }}
+  {{flexberry-validationmessage error=model.errors.resultSquare pointing="pointing"}}
+</div>
+
+<div class="field">
+  {{
+    flexberry-field
+    placeholder=(t 'components.flexberry-field.placeholder')
+    readonly=readonly
+    required=true
+    value=model.resultSquare_notStored
+    class=(if model.errors.resultSquare_notStored 'error' '')
+    label=(t 'forms.i-i-s-o-h-c-building-e.resultSquare_notStored-caption')
+  }}
+  {{flexberry-validationmessage error=model.errors.resultSquare_notStored pointing="pointing"}}
+</div>
+
+</form>

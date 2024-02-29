@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OHC.BusinessServers</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.OHC.networkSectionBS">
+            <summary>
+            Network section BS.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.QRandChecker">
+            <summary>
+            Q rand checker.
+            </summary>
+        </member>
+    </members>
+</doc>

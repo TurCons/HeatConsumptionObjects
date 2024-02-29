@@ -1,0 +1,859 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OHC.Objects</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.OHC.ExtendedAuditEntity">
+            <summary>
+            ExtendedAuditEntity.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.ExtendedAuditEntity.ChangedFields">
+            <summary>
+            ChangedFields.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.ExtendedAuditEntity.CustomField">
+            <summary>
+            CustomField.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.ExtendedAuditEntity.ObjectCaption">
+            <summary>
+            ObjectCaption.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.ExtendedAuditEntity.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.ExtendedAuditEntity.Views.ExtendedAuditEntityL">
+            <summary>
+            "ExtendedAuditEntityL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.NetworkArea">
+            <summary>
+            Сетевой район.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkArea.AreaName">
+            <summary>
+            Название района.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkArea.CreateTime">
+            <summary>
+            Время создания объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkArea.Creator">
+            <summary>
+            Создатель объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkArea.EditTime">
+            <summary>
+            Время последнего редактирования объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkArea.Editor">
+            <summary>
+            Последний редактор объекта.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.NetworkArea.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkArea.Views.AuditView">
+            <summary>
+            "AuditView" view.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkArea.Views.NetworkAreaE">
+            <summary>
+            "NetworkAreaE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkArea.Views.NetworkAreaL">
+            <summary>
+            "NetworkAreaL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.NetworkArea.AuditSettings">
+            <summary>
+            Audit class settings.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.AuditEnabled">
+            <summary>
+            Включён ли аудит для класса.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.UseDefaultView">
+            <summary>
+            Использовать имя представления для аудита по умолчанию.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.SelectAudit">
+            <summary>
+            Включён ли аудит операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.SelectAuditViewName">
+            <summary>
+            Имя представления для аудирования операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.InsertAudit">
+            <summary>
+            Включён ли аудит операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.InsertAuditViewName">
+            <summary>
+            Имя представления для аудирования операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.UpdateAudit">
+            <summary>
+            Включён ли аудит операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.UpdateAuditViewName">
+            <summary>
+            Имя представления для аудирования операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.DeleteAudit">
+            <summary>
+            Включён ли аудит операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.DeleteAuditViewName">
+            <summary>
+            Имя представления для аудирования операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.FormUrl">
+            <summary>
+            Путь к форме просмотра результатов аудита.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.WriteMode">
+            <summary>
+            Режим записи данных аудита (синхронный или асинхронный).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.PrunningLength">
+            <summary>
+            Максимальная длина сохраняемого значения поля (если 0, то строка обрезаться не будет).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.ShowPrimaryKey">
+            <summary>
+            Показывать ли пользователям в изменениях первичные ключи.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.KeepOldValue">
+            <summary>
+            Сохранять ли старое значение.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.Compress">
+            <summary>
+            Сжимать ли сохраняемые значения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkArea.AuditSettings.KeepAllValues">
+            <summary>
+            Сохранять ли все значения атрибутов, а не только изменяемые.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.Building">
+            <summary>
+            Здание.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.Address">
+            <summary>
+            Адрес здания.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.ResultSquare">
+            <summary>
+            Общая площадь ОТП.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.CreateTime">
+            <summary>
+            Время создания объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.Creator">
+            <summary>
+            Создатель объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.EditTime">
+            <summary>
+            Время последнего редактирования объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.Editor">
+            <summary>
+            Последний редактор объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.ResultSquare_notStored">
+            <summary>
+            не хранимиое поле с результирующей площадью.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.NetworkArea">
+            <summary>
+            Здание.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.Building.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.Views.AuditView">
+            <summary>
+            "AuditView" view.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.Views.BuildingE">
+            <summary>
+            "BuildingE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Building.Views.BuildingL">
+            <summary>
+            "BuildingL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.Building.AuditSettings">
+            <summary>
+            Audit class settings.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.AuditEnabled">
+            <summary>
+            Включён ли аудит для класса.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.UseDefaultView">
+            <summary>
+            Использовать имя представления для аудита по умолчанию.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.SelectAudit">
+            <summary>
+            Включён ли аудит операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.SelectAuditViewName">
+            <summary>
+            Имя представления для аудирования операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.InsertAudit">
+            <summary>
+            Включён ли аудит операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.InsertAuditViewName">
+            <summary>
+            Имя представления для аудирования операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.UpdateAudit">
+            <summary>
+            Включён ли аудит операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.UpdateAuditViewName">
+            <summary>
+            Имя представления для аудирования операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.DeleteAudit">
+            <summary>
+            Включён ли аудит операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.DeleteAuditViewName">
+            <summary>
+            Имя представления для аудирования операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.FormUrl">
+            <summary>
+            Путь к форме просмотра результатов аудита.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.WriteMode">
+            <summary>
+            Режим записи данных аудита (синхронный или асинхронный).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.PrunningLength">
+            <summary>
+            Максимальная длина сохраняемого значения поля (если 0, то строка обрезаться не будет).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.ShowPrimaryKey">
+            <summary>
+            Показывать ли пользователям в изменениях первичные ключи.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.KeepOldValue">
+            <summary>
+            Сохранять ли старое значение.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.Compress">
+            <summary>
+            Сжимать ли сохраняемые значения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Building.AuditSettings.KeepAllValues">
+            <summary>
+            Сохранять ли все значения атрибутов, а не только изменяемые.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.TSectionType">
+            <summary>
+            Тип участка.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.TSectionType.внутренний">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.TSectionType.наружный">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.Consumer">
+            <summary>
+            Потребитель.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Consumer.PersonalAccount">
+            <summary>
+            Лицевой счет.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Consumer.CreateTime">
+            <summary>
+            Время создания объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Consumer.Creator">
+            <summary>
+            Создатель объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Consumer.EditTime">
+            <summary>
+            Время последнего редактирования объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Consumer.Editor">
+            <summary>
+            Последний редактор объекта.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.Consumer.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Consumer.Views.AuditView">
+            <summary>
+            "AuditView" view.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Consumer.Views.ConsumerE">
+            <summary>
+            "ConsumerE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.Consumer.Views.ConsumerL">
+            <summary>
+            "ConsumerL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.Consumer.AuditSettings">
+            <summary>
+            Audit class settings.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.AuditEnabled">
+            <summary>
+            Включён ли аудит для класса.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.UseDefaultView">
+            <summary>
+            Использовать имя представления для аудита по умолчанию.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.SelectAudit">
+            <summary>
+            Включён ли аудит операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.SelectAuditViewName">
+            <summary>
+            Имя представления для аудирования операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.InsertAudit">
+            <summary>
+            Включён ли аудит операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.InsertAuditViewName">
+            <summary>
+            Имя представления для аудирования операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.UpdateAudit">
+            <summary>
+            Включён ли аудит операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.UpdateAuditViewName">
+            <summary>
+            Имя представления для аудирования операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.DeleteAudit">
+            <summary>
+            Включён ли аудит операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.DeleteAuditViewName">
+            <summary>
+            Имя представления для аудирования операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.FormUrl">
+            <summary>
+            Путь к форме просмотра результатов аудита.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.WriteMode">
+            <summary>
+            Режим записи данных аудита (синхронный или асинхронный).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.PrunningLength">
+            <summary>
+            Максимальная длина сохраняемого значения поля (если 0, то строка обрезаться не будет).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.ShowPrimaryKey">
+            <summary>
+            Показывать ли пользователям в изменениях первичные ключи.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.KeepOldValue">
+            <summary>
+            Сохранять ли старое значение.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.Compress">
+            <summary>
+            Сжимать ли сохраняемые значения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.Consumer.AuditSettings.KeepAllValues">
+            <summary>
+            Сохранять ли все значения атрибутов, а не только изменяемые.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.NetworkSection">
+            <summary>
+            Участок сети.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.SectionNumber">
+            <summary>
+            Номер участка.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.SectionType">
+            <summary>
+            Тип участка.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.InsulationType">
+            <summary>
+            Тип изоляции.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.YearOfInstallation">
+            <summary>
+            Год прокладки.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.InstallationType">
+            <summary>
+            Тип прокладки.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.Descr_string">
+            <summary>
+            Полное описание участка сети.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.CreateTime">
+            <summary>
+            Время создания объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.Creator">
+            <summary>
+            Создатель объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.EditTime">
+            <summary>
+            Время последнего редактирования объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.Editor">
+            <summary>
+            Последний редактор объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.HeatConsumptionObject">
+            <summary>
+            мастеровая ссылка на шапку IIS.OHC.HeatConsumptionObject.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.NetworkSection.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.Views.AuditView">
+            <summary>
+            "AuditView" view.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.NetworkSection.Views.NetworkSectionE">
+            <summary>
+            "NetworkSectionE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.NetworkSection.AuditSettings">
+            <summary>
+            Audit class settings.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.AuditEnabled">
+            <summary>
+            Включён ли аудит для класса.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.UseDefaultView">
+            <summary>
+            Использовать имя представления для аудита по умолчанию.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.SelectAudit">
+            <summary>
+            Включён ли аудит операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.SelectAuditViewName">
+            <summary>
+            Имя представления для аудирования операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.InsertAudit">
+            <summary>
+            Включён ли аудит операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.InsertAuditViewName">
+            <summary>
+            Имя представления для аудирования операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.UpdateAudit">
+            <summary>
+            Включён ли аудит операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.UpdateAuditViewName">
+            <summary>
+            Имя представления для аудирования операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.DeleteAudit">
+            <summary>
+            Включён ли аудит операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.DeleteAuditViewName">
+            <summary>
+            Имя представления для аудирования операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.FormUrl">
+            <summary>
+            Путь к форме просмотра результатов аудита.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.WriteMode">
+            <summary>
+            Режим записи данных аудита (синхронный или асинхронный).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.PrunningLength">
+            <summary>
+            Максимальная длина сохраняемого значения поля (если 0, то строка обрезаться не будет).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.ShowPrimaryKey">
+            <summary>
+            Показывать ли пользователям в изменениях первичные ключи.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.KeepOldValue">
+            <summary>
+            Сохранять ли старое значение.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.Compress">
+            <summary>
+            Сжимать ли сохраняемые значения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.NetworkSection.AuditSettings.KeepAllValues">
+            <summary>
+            Сохранять ли все значения атрибутов, а не только изменяемые.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.DetailArrayOfNetworkSection">
+            <summary>
+            Detail array of NetworkSection.
+            </summary>
+        </member>
+        <member name="M:IIS.OHC.DetailArrayOfNetworkSection.#ctor(IIS.OHC.HeatConsumptionObject)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type NetworkSection by index.
+            </summary>
+            <summary>
+            Adds object with type NetworkSection.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.TInstallationType">
+            <summary>
+            Тип прокладки трубопровода.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.TInstallationType.наземный">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.TInstallationType.подземный">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.TInstallationType.по__подвалу">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.HeatConsumptionObject">
+            <summary>
+            Объект теплопотребления.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.ObjectName">
+            <summary>
+            Наименование ОТП.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.RegistrationDate">
+            <summary>
+            Дата регистрации.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.ObjectSquare">
+            <summary>
+            Площадь объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.QRCode">
+            <summary>
+            Буквенно-числовой код.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.CreateTime">
+            <summary>
+            Время создания объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.Creator">
+            <summary>
+            Создатель объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.EditTime">
+            <summary>
+            Время последнего редактирования объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.Editor">
+            <summary>
+            Последний редактор объекта.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.Building">
+            <summary>
+            Объект теплопотребления.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.Consumer">
+            <summary>
+            Объект теплопотребления.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.NetworkSection">
+            <summary>
+            Объект теплопотребления.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.HeatConsumptionObject.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.Views.AuditView">
+            <summary>
+            "AuditView" view.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.Views.HeatConsumptionObjectE">
+            <summary>
+            "HeatConsumptionObjectE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.OHC.HeatConsumptionObject.Views.HeatConsumptionObjectL">
+            <summary>
+            "HeatConsumptionObjectL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.OHC.HeatConsumptionObject.AuditSettings">
+            <summary>
+            Audit class settings.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.AuditEnabled">
+            <summary>
+            Включён ли аудит для класса.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.UseDefaultView">
+            <summary>
+            Использовать имя представления для аудита по умолчанию.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.SelectAudit">
+            <summary>
+            Включён ли аудит операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.SelectAuditViewName">
+            <summary>
+            Имя представления для аудирования операции чтения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.InsertAudit">
+            <summary>
+            Включён ли аудит операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.InsertAuditViewName">
+            <summary>
+            Имя представления для аудирования операции создания.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.UpdateAudit">
+            <summary>
+            Включён ли аудит операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.UpdateAuditViewName">
+            <summary>
+            Имя представления для аудирования операции изменения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.DeleteAudit">
+            <summary>
+            Включён ли аудит операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.DeleteAuditViewName">
+            <summary>
+            Имя представления для аудирования операции удаления.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.FormUrl">
+            <summary>
+            Путь к форме просмотра результатов аудита.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.WriteMode">
+            <summary>
+            Режим записи данных аудита (синхронный или асинхронный).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.PrunningLength">
+            <summary>
+            Максимальная длина сохраняемого значения поля (если 0, то строка обрезаться не будет).
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.ShowPrimaryKey">
+            <summary>
+            Показывать ли пользователям в изменениях первичные ключи.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.KeepOldValue">
+            <summary>
+            Сохранять ли старое значение.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.Compress">
+            <summary>
+            Сжимать ли сохраняемые значения.
+            </summary>
+        </member>
+        <member name="F:IIS.OHC.HeatConsumptionObject.AuditSettings.KeepAllValues">
+            <summary>
+            Сохранять ли все значения атрибутов, а не только изменяемые.
+            </summary>
+        </member>
+    </members>
+</doc>

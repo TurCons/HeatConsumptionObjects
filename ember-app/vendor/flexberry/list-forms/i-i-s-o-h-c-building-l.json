@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-o-h-c-building-e",
+  "editForm": "i-i-s-o-h-c-building-e",
+  "external": false,
+  "caption": "Building",
+  "name": "IISOHCBuildingL",
+  "className": "BuildingL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-o-h-c-building",
+      "modelProjection": "BuildingL"
+    }
+  ]
+}

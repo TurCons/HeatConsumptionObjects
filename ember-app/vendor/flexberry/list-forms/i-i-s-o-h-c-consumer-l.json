@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-o-h-c-consumer-e",
+  "editForm": "i-i-s-o-h-c-consumer-e",
+  "external": false,
+  "caption": "Consumer",
+  "name": "IISOHCConsumerL",
+  "className": "ConsumerL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-o-h-c-consumer",
+      "modelProjection": "ConsumerL"
+    }
+  ]
+}

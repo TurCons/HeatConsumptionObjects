@@ -1,0 +1,51 @@
+﻿{
+  "applicationCaption": "Объекты теплопотребления",
+  "applicationTitle": "Объекты теплопотребления",
+  "items": [
+    {
+      "link": null,
+      "menuName": "районы-и-здания",
+      "caption": "районы и здания",
+      "title": "районы и здания",
+      "children": [
+        {
+          "link": "i-i-s-o-h-c-network-area-l",
+          "menuName": null,
+          "caption": "Районы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-o-h-c-building-l",
+          "menuName": null,
+          "caption": "Здания",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "о-т-п-и-клиенты",
+      "caption": "ОТП и клиенты",
+      "title": "ОТП и клиенты",
+      "children": [
+        {
+          "link": "i-i-s-o-h-c-heat-consumption-object-l",
+          "menuName": null,
+          "caption": "Объекты теплопотребления",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-o-h-c-consumer-l",
+          "menuName": null,
+          "caption": "Потребители",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

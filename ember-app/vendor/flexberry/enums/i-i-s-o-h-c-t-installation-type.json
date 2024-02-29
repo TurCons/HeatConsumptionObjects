@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.OHC",
+  "className": "TInstallationType",
+  "enumObjects": {
+    "наземный": null,
+    "подземный": null,
+    "по__подвалу": null
+  }
+}

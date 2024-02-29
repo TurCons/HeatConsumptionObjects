@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Building",
+      "projection": "BuildingL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Consumer",
+      "projection": "ConsumerL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "NetworkSection.HeatConsumptionObject",
+      "projection": "HeatConsumptionObjectL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Heat consumption object",
+  "name": "IISOHCHeatConsumptionObjectE",
+  "className": "HeatConsumptionObjectE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-o-h-c-heat-consumption-object",
+      "modelProjection": "HeatConsumptionObjectE"
+    }
+  ]
+}

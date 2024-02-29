@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Network area",
+  "name": "IISOHCNetworkAreaE",
+  "className": "NetworkAreaE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-o-h-c-network-area",
+      "modelProjection": "NetworkAreaE"
+    }
+  ]
+}

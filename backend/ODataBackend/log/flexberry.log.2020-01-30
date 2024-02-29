@@ -1,0 +1,1264 @@
+﻿ERROR 2020-01-30 11:27:28 [53] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:27:28 [53] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:27:39 [55] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:27:39 [55] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:27:45 [55] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:27:45 [55] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:28:02 [55] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:28:02 [55] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:29:47 [53] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:29:47 [53] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:29:53 [66] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:29:53 [66] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:30:31 [53] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:30:31 [53] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:30:58 [53] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:30:58 [53] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:31:52 [71] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:31:52 [71] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:32:23 [71] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:32:23 [71] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:34:33 [68] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:34:33 [68] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:35:00 [77] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:35:00 [77] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:35:44 [68] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:35:44 [68] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:40:57 [69] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:40:57 [69] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:43:50 [65] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:43:50 [65] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:43:55 [64] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:43:55 [64] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:45:28 [57] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:45:28 [57] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:45:32 [53] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:45:32 [53] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:45:56 [55] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:45:56 [55] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:50:35 [49] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:50:35 [49] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:54:45 [35] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:54:45 [35] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:54:49 [34] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:54:49 [34] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:58:39 [29] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:58:39 [29] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:58:49 [37] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 11:58:49 [37] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 12:12:15 [12] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 12:12:15 [12] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 12:12:18 [14] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 12:12:18 [14] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:03:38 [60] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:03:38 [60] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:05:40 [9] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:05:40 [9] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:05:43 [9] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:05:43 [9] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:06:11 [6] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:06:11 [6] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:09:10 [6] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:09:10 [6] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:09:10 [9] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:09:10 [9] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:09:27 [91] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:09:27 [91] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:09:48 [91] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:09:48 [91] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:21:05 [85] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:21:05 [85] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:21:06 [85] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:21:06 [85] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:21:09 [78] AfterInternalServerError
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 13:21:09 [78] Property name does not exist: id
+System.Exception: Property name does not exist: id
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertyName(SelectItem item)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.GetPropertiesForDynamicView(ExpandedNavigationSelectItem parent, IEnumerable`1 selectedItems)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.CreateDynamicView()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Init()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 17:24:10 [12] AfterInternalServerError
+ICSSoft.STORMNET.Business.ExecutingQueryException: Error on executing:
+SELECT 
+ChangedFields,
+CreateTime,
+Creator,
+CustomField,
+Editor,
+EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2,
+STORMNETDATAOBJECTTYPE
+FROM (
+SELECT 
+ChangedFields,
+(SELECT MIN(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND OperationType='Создание'
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as CreateTime,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND OperationType='Создание'
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime asc LIMIT 1) as Creator,
+CustomField,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime desc LIMIT 1) as Editor,
+(SELECT MAX(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+( SELECT 
+ExtendedAuditEntity0.ChangedFields as ChangedFields,
+NULL as CreateTime,
+NULL as Creator,
+ExtendedAuditEntity0.CustomField as CustomField,
+NULL as Editor,
+NULL as EditTime,
+ExtendedAuditEntity0.ExecutionResult as ExecutionResult,
+ExtendedAuditEntity0.ObjectCaption as ObjectCaption,
+ExtendedAuditEntity0.ObjectPrimaryKey as ObjectPrimaryKey,
+ExtendedAuditEntity0.ObjectType_m0 as ObjectType,
+ExtendedAuditEntity0.OperationTime as OperationTime,
+ExtendedAuditEntity0.OperationType as OperationType,
+ExtendedAuditEntity0.SerializedField as SerializedField,
+ExtendedAuditEntity0.Source as Source,
+ExtendedAuditEntity0.User_m0 as "User",
+ExtendedAuditEntityObjectType0.Name as "ObjectType.Name",
+ExtendedAuditEntity0.primaryKey as STORMMainObjectKey,
+ExtendedAuditEntityObjectType0.primaryKey as STORMJoinedMasterKey0,
+ExtendedAuditEntity0.ObjectType_m0 as STORMJoinedMasterKey1,
+ExtendedAuditEntity0.User_m0 as STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+(STORMAuEntity ExtendedAuditEntity0 
+	 LEFT JOIN  STORMAuObjType ExtendedAuditEntityObjectType0
+	 ON ExtendedAuditEntity0.ObjectType_m0 = ExtendedAuditEntityObjectType0.primaryKey))"IIS.OHC.ExtendedAuditEntity"
+) STORMGENERATEDQUERY ---> Npgsql.PostgresException: 42703: столбец extendedauditentity0.changedfields не существует
+   в Npgsql.NpgsqlConnector.<DoReadMessage>d__155.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlConnector.<ReadMessage>d__154.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в Npgsql.NpgsqlConnector.<ReadMessage>d__154.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlConnector.<ReadExpecting>d__161`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlDataReader.NextResult()
+   в Npgsql.NpgsqlCommand.<Execute>d__71.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlCommand.<ExecuteDbDataReader>d__92.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   в ICSSoft.STORMNET.Business.SQLDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   --- Конец трассировки внутреннего стека исключений ---
+   в ICSSoft.STORMNET.Business.SQLDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   в ICSSoft.STORMNET.Business.PostgresDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct, Object& State, DataObjectCache DataObjectCache)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct, DataObjectCache DataObjectCache)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.LoadObjects(LoadingCustomizationStruct lcs, Int32& count, Boolean callExecuteCallbackBeforeGet, Boolean callGetObjectsCount, Boolean callExecuteCallbackAfterGet)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.ExecuteExpression()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 17:24:10 [12] Error on executing:
+SELECT 
+ChangedFields,
+CreateTime,
+Creator,
+CustomField,
+Editor,
+EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2,
+STORMNETDATAOBJECTTYPE
+FROM (
+SELECT 
+ChangedFields,
+(SELECT MIN(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND OperationType='Создание'
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as CreateTime,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND OperationType='Создание'
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime asc LIMIT 1) as Creator,
+CustomField,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime desc LIMIT 1) as Editor,
+(SELECT MAX(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+( SELECT 
+ExtendedAuditEntity0.ChangedFields as ChangedFields,
+NULL as CreateTime,
+NULL as Creator,
+ExtendedAuditEntity0.CustomField as CustomField,
+NULL as Editor,
+NULL as EditTime,
+ExtendedAuditEntity0.ExecutionResult as ExecutionResult,
+ExtendedAuditEntity0.ObjectCaption as ObjectCaption,
+ExtendedAuditEntity0.ObjectPrimaryKey as ObjectPrimaryKey,
+ExtendedAuditEntity0.ObjectType_m0 as ObjectType,
+ExtendedAuditEntity0.OperationTime as OperationTime,
+ExtendedAuditEntity0.OperationType as OperationType,
+ExtendedAuditEntity0.SerializedField as SerializedField,
+ExtendedAuditEntity0.Source as Source,
+ExtendedAuditEntity0.User_m0 as "User",
+ExtendedAuditEntityObjectType0.Name as "ObjectType.Name",
+ExtendedAuditEntity0.primaryKey as STORMMainObjectKey,
+ExtendedAuditEntityObjectType0.primaryKey as STORMJoinedMasterKey0,
+ExtendedAuditEntity0.ObjectType_m0 as STORMJoinedMasterKey1,
+ExtendedAuditEntity0.User_m0 as STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+(STORMAuEntity ExtendedAuditEntity0 
+	 LEFT JOIN  STORMAuObjType ExtendedAuditEntityObjectType0
+	 ON ExtendedAuditEntity0.ObjectType_m0 = ExtendedAuditEntityObjectType0.primaryKey))"IIS.OHC.ExtendedAuditEntity"
+) STORMGENERATEDQUERY
+ICSSoft.STORMNET.Business.ExecutingQueryException: Error on executing:
+SELECT 
+ChangedFields,
+CreateTime,
+Creator,
+CustomField,
+Editor,
+EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2,
+STORMNETDATAOBJECTTYPE
+FROM (
+SELECT 
+ChangedFields,
+(SELECT MIN(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND OperationType='Создание'
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as CreateTime,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND OperationType='Создание'
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime asc LIMIT 1) as Creator,
+CustomField,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime desc LIMIT 1) as Editor,
+(SELECT MAX(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+( SELECT 
+ExtendedAuditEntity0.ChangedFields as ChangedFields,
+NULL as CreateTime,
+NULL as Creator,
+ExtendedAuditEntity0.CustomField as CustomField,
+NULL as Editor,
+NULL as EditTime,
+ExtendedAuditEntity0.ExecutionResult as ExecutionResult,
+ExtendedAuditEntity0.ObjectCaption as ObjectCaption,
+ExtendedAuditEntity0.ObjectPrimaryKey as ObjectPrimaryKey,
+ExtendedAuditEntity0.ObjectType_m0 as ObjectType,
+ExtendedAuditEntity0.OperationTime as OperationTime,
+ExtendedAuditEntity0.OperationType as OperationType,
+ExtendedAuditEntity0.SerializedField as SerializedField,
+ExtendedAuditEntity0.Source as Source,
+ExtendedAuditEntity0.User_m0 as "User",
+ExtendedAuditEntityObjectType0.Name as "ObjectType.Name",
+ExtendedAuditEntity0.primaryKey as STORMMainObjectKey,
+ExtendedAuditEntityObjectType0.primaryKey as STORMJoinedMasterKey0,
+ExtendedAuditEntity0.ObjectType_m0 as STORMJoinedMasterKey1,
+ExtendedAuditEntity0.User_m0 as STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+(STORMAuEntity ExtendedAuditEntity0 
+	 LEFT JOIN  STORMAuObjType ExtendedAuditEntityObjectType0
+	 ON ExtendedAuditEntity0.ObjectType_m0 = ExtendedAuditEntityObjectType0.primaryKey))"IIS.OHC.ExtendedAuditEntity"
+) STORMGENERATEDQUERY ---> Npgsql.PostgresException: 42703: столбец extendedauditentity0.changedfields не существует
+   в Npgsql.NpgsqlConnector.<DoReadMessage>d__155.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlConnector.<ReadMessage>d__154.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в Npgsql.NpgsqlConnector.<ReadMessage>d__154.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlConnector.<ReadExpecting>d__161`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlDataReader.NextResult()
+   в Npgsql.NpgsqlCommand.<Execute>d__71.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlCommand.<ExecuteDbDataReader>d__92.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   в ICSSoft.STORMNET.Business.SQLDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   --- Конец трассировки внутреннего стека исключений ---
+   в ICSSoft.STORMNET.Business.SQLDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   в ICSSoft.STORMNET.Business.PostgresDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct, Object& State, DataObjectCache DataObjectCache)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct, DataObjectCache DataObjectCache)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.LoadObjects(LoadingCustomizationStruct lcs, Int32& count, Boolean callExecuteCallbackBeforeGet, Boolean callGetObjectsCount, Boolean callExecuteCallbackAfterGet)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.ExecuteExpression()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 17:27:49 [19] AfterInternalServerError
+ICSSoft.STORMNET.Business.ExecutingQueryException: Error on executing:
+SELECT 
+ChangedFields,
+CreateTime,
+Creator,
+CustomField,
+Editor,
+EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2,
+STORMNETDATAOBJECTTYPE
+FROM (
+SELECT 
+ChangedFields,
+(SELECT MIN(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND OperationType='Создание'
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as CreateTime,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND OperationType='Создание'
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime asc LIMIT 1) as Creator,
+CustomField,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime desc LIMIT 1) as Editor,
+(SELECT MAX(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+( SELECT 
+ExtendedAuditEntity0.ChangedFields as ChangedFields,
+NULL as CreateTime,
+NULL as Creator,
+ExtendedAuditEntity0.CustomField as CustomField,
+NULL as Editor,
+NULL as EditTime,
+ExtendedAuditEntity0.ExecutionResult as ExecutionResult,
+ExtendedAuditEntity0.ObjectCaption as ObjectCaption,
+ExtendedAuditEntity0.ObjectPrimaryKey as ObjectPrimaryKey,
+ExtendedAuditEntity0.ObjectType_m0 as ObjectType,
+ExtendedAuditEntity0.OperationTime as OperationTime,
+ExtendedAuditEntity0.OperationType as OperationType,
+ExtendedAuditEntity0.SerializedField as SerializedField,
+ExtendedAuditEntity0.Source as Source,
+ExtendedAuditEntity0.User_m0 as "User",
+ExtendedAuditEntityObjectType0.Name as "ObjectType.Name",
+ExtendedAuditEntity0.primaryKey as STORMMainObjectKey,
+ExtendedAuditEntityObjectType0.primaryKey as STORMJoinedMasterKey0,
+ExtendedAuditEntity0.ObjectType_m0 as STORMJoinedMasterKey1,
+ExtendedAuditEntity0.User_m0 as STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+(STORMAuEntity ExtendedAuditEntity0 
+	 LEFT JOIN  STORMAuObjType ExtendedAuditEntityObjectType0
+	 ON ExtendedAuditEntity0.ObjectType_m0 = ExtendedAuditEntityObjectType0.primaryKey))"IIS.OHC.ExtendedAuditEntity"
+) STORMGENERATEDQUERY ---> Npgsql.NpgsqlException: Exception while reading from stream ---> System.IO.IOException: Не удается прочитать данные из транспортного соединения: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   в Npgsql.ReadBuffer.<Ensure>d__27.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в Npgsql.ReadBuffer.<Ensure>d__27.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnector.<DoReadMessage>d__155.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlConnector.<ReadMessage>d__154.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlConnector.<ReadExpecting>d__161`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlDataReader.NextResult()
+   в Npgsql.NpgsqlCommand.<Execute>d__71.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlCommand.<ExecuteDbDataReader>d__92.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   в ICSSoft.STORMNET.Business.SQLDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   --- Конец трассировки внутреннего стека исключений ---
+   в ICSSoft.STORMNET.Business.SQLDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   в ICSSoft.STORMNET.Business.PostgresDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct, Object& State, DataObjectCache DataObjectCache)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct, DataObjectCache DataObjectCache)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.LoadObjects(LoadingCustomizationStruct lcs, Int32& count, Boolean callExecuteCallbackBeforeGet, Boolean callGetObjectsCount, Boolean callExecuteCallbackAfterGet)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.ExecuteExpression()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()
+ERROR 2020-01-30 17:27:49 [19] Error on executing:
+SELECT 
+ChangedFields,
+CreateTime,
+Creator,
+CustomField,
+Editor,
+EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2,
+STORMNETDATAOBJECTTYPE
+FROM (
+SELECT 
+ChangedFields,
+(SELECT MIN(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND OperationType='Создание'
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as CreateTime,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND OperationType='Создание'
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime asc LIMIT 1) as Creator,
+CustomField,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime desc LIMIT 1) as Editor,
+(SELECT MAX(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+( SELECT 
+ExtendedAuditEntity0.ChangedFields as ChangedFields,
+NULL as CreateTime,
+NULL as Creator,
+ExtendedAuditEntity0.CustomField as CustomField,
+NULL as Editor,
+NULL as EditTime,
+ExtendedAuditEntity0.ExecutionResult as ExecutionResult,
+ExtendedAuditEntity0.ObjectCaption as ObjectCaption,
+ExtendedAuditEntity0.ObjectPrimaryKey as ObjectPrimaryKey,
+ExtendedAuditEntity0.ObjectType_m0 as ObjectType,
+ExtendedAuditEntity0.OperationTime as OperationTime,
+ExtendedAuditEntity0.OperationType as OperationType,
+ExtendedAuditEntity0.SerializedField as SerializedField,
+ExtendedAuditEntity0.Source as Source,
+ExtendedAuditEntity0.User_m0 as "User",
+ExtendedAuditEntityObjectType0.Name as "ObjectType.Name",
+ExtendedAuditEntity0.primaryKey as STORMMainObjectKey,
+ExtendedAuditEntityObjectType0.primaryKey as STORMJoinedMasterKey0,
+ExtendedAuditEntity0.ObjectType_m0 as STORMJoinedMasterKey1,
+ExtendedAuditEntity0.User_m0 as STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+(STORMAuEntity ExtendedAuditEntity0 
+	 LEFT JOIN  STORMAuObjType ExtendedAuditEntityObjectType0
+	 ON ExtendedAuditEntity0.ObjectType_m0 = ExtendedAuditEntityObjectType0.primaryKey))"IIS.OHC.ExtendedAuditEntity"
+) STORMGENERATEDQUERY
+ICSSoft.STORMNET.Business.ExecutingQueryException: Error on executing:
+SELECT 
+ChangedFields,
+CreateTime,
+Creator,
+CustomField,
+Editor,
+EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2,
+STORMNETDATAOBJECTTYPE
+FROM (
+SELECT 
+ChangedFields,
+(SELECT MIN(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND OperationType='Создание'
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as CreateTime,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND OperationType='Создание'
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime asc LIMIT 1) as Creator,
+CustomField,
+(SELECT STORMAG.Name
+            FROM STORMAuEntity 
+	            INNER join STORMAG on STORMAuEntity.User_m0 = STORMAG.primaryKey 
+	            INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+            WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+            AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType
+            order by OperationTime desc LIMIT 1) as Editor,
+(SELECT MAX(OperationTime)
+FROM STORMAuEntity INNER JOIN STORMAuObjType ON STORMAuEntity.ObjectType_m0 = STORMAuObjType.primaryKey
+WHERE ObjectPrimaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectPrimaryKey
+AND STORMAuObjType.primaryKey = "IIS.OHC.ExtendedAuditEntity".ObjectType) as EditTime,
+ExecutionResult,
+ObjectCaption,
+ObjectPrimaryKey,
+ObjectType,
+OperationTime,
+OperationType,
+SerializedField,
+Source,
+"User",
+"ObjectType.Name",
+STORMMainObjectKey,
+STORMJoinedMasterKey0,
+STORMJoinedMasterKey1,
+STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+( SELECT 
+ExtendedAuditEntity0.ChangedFields as ChangedFields,
+NULL as CreateTime,
+NULL as Creator,
+ExtendedAuditEntity0.CustomField as CustomField,
+NULL as Editor,
+NULL as EditTime,
+ExtendedAuditEntity0.ExecutionResult as ExecutionResult,
+ExtendedAuditEntity0.ObjectCaption as ObjectCaption,
+ExtendedAuditEntity0.ObjectPrimaryKey as ObjectPrimaryKey,
+ExtendedAuditEntity0.ObjectType_m0 as ObjectType,
+ExtendedAuditEntity0.OperationTime as OperationTime,
+ExtendedAuditEntity0.OperationType as OperationType,
+ExtendedAuditEntity0.SerializedField as SerializedField,
+ExtendedAuditEntity0.Source as Source,
+ExtendedAuditEntity0.User_m0 as "User",
+ExtendedAuditEntityObjectType0.Name as "ObjectType.Name",
+ExtendedAuditEntity0.primaryKey as STORMMainObjectKey,
+ExtendedAuditEntityObjectType0.primaryKey as STORMJoinedMasterKey0,
+ExtendedAuditEntity0.ObjectType_m0 as STORMJoinedMasterKey1,
+ExtendedAuditEntity0.User_m0 as STORMJoinedMasterKey2, cast(0 as numeric) as STORMNETDATAOBJECTTYPE
+FROM 
+(STORMAuEntity ExtendedAuditEntity0 
+	 LEFT JOIN  STORMAuObjType ExtendedAuditEntityObjectType0
+	 ON ExtendedAuditEntity0.ObjectType_m0 = ExtendedAuditEntityObjectType0.primaryKey))"IIS.OHC.ExtendedAuditEntity"
+) STORMGENERATEDQUERY ---> Npgsql.NpgsqlException: Exception while reading from stream ---> System.IO.IOException: Не удается прочитать данные из транспортного соединения: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   в Npgsql.ReadBuffer.<Ensure>d__27.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в Npgsql.ReadBuffer.<Ensure>d__27.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlConnector.<DoReadMessage>d__155.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlConnector.<ReadMessage>d__154.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlConnector.<ReadExpecting>d__161`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Npgsql.NpgsqlDataReader.NextResult()
+   в Npgsql.NpgsqlCommand.<Execute>d__71.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlCommand.<ExecuteDbDataReader>d__92.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   в Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   в ICSSoft.STORMNET.Business.SQLDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   --- Конец трассировки внутреннего стека исключений ---
+   в ICSSoft.STORMNET.Business.SQLDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   в ICSSoft.STORMNET.Business.PostgresDataService.ReadFirst(String query, Object& state, Int32 loadingBufferSize)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct, Object& State, DataObjectCache DataObjectCache)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct, DataObjectCache DataObjectCache)
+   в ICSSoft.STORMNET.Business.SQLDataService.LoadObjects(LoadingCustomizationStruct customizationStruct)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.LoadObjects(LoadingCustomizationStruct lcs, Int32& count, Boolean callExecuteCallbackBeforeGet, Boolean callGetObjectsCount, Boolean callExecuteCallbackAfterGet)
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.ExecuteExpression()
+   в NewPlatform.Flexberry.ORM.ODataService.Controllers.DataObjectController.Get()

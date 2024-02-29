@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-o-h-c-heat-consumption-object-e",
+  "editForm": "i-i-s-o-h-c-heat-consumption-object-e",
+  "external": false,
+  "caption": "Heat consumption object",
+  "name": "IISOHCHeatConsumptionObjectL",
+  "className": "HeatConsumptionObjectL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-o-h-c-heat-consumption-object",
+      "modelProjection": "HeatConsumptionObjectL"
+    }
+  ]
+}

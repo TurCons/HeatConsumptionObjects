@@ -1,0 +1,1373 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NewPlatform.Flexberry.GIS.Objects</name>
+    </assembly>
+    <members>
+        <member name="T:NewPlatform.Flexberry.GIS.CswConnection">
+            <summary>
+            CswConnection.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.CswConnection.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.CswConnection.Url">
+            <summary>
+            Url.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.CswConnection.CreateTime">
+            <summary>
+            Время создания объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.CswConnection.Creator">
+            <summary>
+            Создатель объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.CswConnection.EditTime">
+            <summary>
+            Время последнего редактирования объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.CswConnection.Editor">
+            <summary>
+            Последний редактор объекта.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.CswConnection.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.CswConnection.Views.AuditView">
+            <summary>
+            "AuditView" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.CswConnection.Views.CswConnectionE">
+            <summary>
+            "CswConnectionE" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.CswConnection.Views.CswConnectionL">
+            <summary>
+            "CswConnectionL" view.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings">
+            <summary>
+            Audit class settings.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.AuditEnabled">
+            <summary>
+            Включён ли аудит для класса.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.UseDefaultView">
+            <summary>
+            Использовать имя представления для аудита по умолчанию.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.SelectAudit">
+            <summary>
+            Включён ли аудит операции чтения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.SelectAuditViewName">
+            <summary>
+            Имя представления для аудирования операции чтения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.InsertAudit">
+            <summary>
+            Включён ли аудит операции создания.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.InsertAuditViewName">
+            <summary>
+            Имя представления для аудирования операции создания.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.UpdateAudit">
+            <summary>
+            Включён ли аудит операции изменения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.UpdateAuditViewName">
+            <summary>
+            Имя представления для аудирования операции изменения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.DeleteAudit">
+            <summary>
+            Включён ли аудит операции удаления.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.DeleteAuditViewName">
+            <summary>
+            Имя представления для аудирования операции удаления.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.FormUrl">
+            <summary>
+            Путь к форме просмотра результатов аудита.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.WriteMode">
+            <summary>
+            Режим записи данных аудита (синхронный или асинхронный).
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.PrunningLength">
+            <summary>
+            Максимальная длина сохраняемого значения поля (если 0, то строка обрезаться не будет).
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.ShowPrimaryKey">
+            <summary>
+            Показывать ли пользователям в изменениях первичные ключи.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.KeepOldValue">
+            <summary>
+            Сохранять ли старое значение.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.Compress">
+            <summary>
+            Сжимать ли сохраняемые значения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.CswConnection.AuditSettings.KeepAllValues">
+            <summary>
+            Сохранять ли все значения атрибутов, а не только изменяемые.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.DataLink">
+            <summary>
+            DataLink.
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataLink.UpdateAttributiveTriggers(System.Data.IDbCommand,System.String,System.String,System.String,System.String)">
+            <summary>
+            Создать/обновить триггеры в атрибутивной БД
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataLink.UpdateSpatialTriggers(System.Data.IDbCommand,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Создать/обновить триггеры в геоданных
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLink.ClearWithoutLink">
+            <summary>
+            ClearWithoutLink.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLink.LayerTable">
+            <summary>
+            LayerTable.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLink.DataLinkParameter">
+            <summary>
+            DataLink.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLink.MapObjectSetting">
+            <summary>
+            мастеровая ссылка на шапку NewPlatform.Flexberry.GIS.MapObjectSetting.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.DataLink.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLink.Views.DataLinkD">
+            <summary>
+            "DataLinkD" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLink.Views.DataLinkE">
+            <summary>
+            "DataLinkE" view.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.DetailArrayOfDataLink">
+            <summary>
+            Detail array of DataLink.
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DetailArrayOfDataLink.#ctor(NewPlatform.Flexberry.GIS.MapObjectSetting)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type DataLink by index.
+            </summary>
+            <summary>
+            Adds object with type DataLink.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.DataLinkParameter">
+            <summary>
+            DataLinkParameter.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLinkParameter.ObjectField">
+            <summary>
+            ObjectField.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLinkParameter.LayerField">
+            <summary>
+            LayerField.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLinkParameter.Expression">
+            <summary>
+            Expression.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLinkParameter.LinkField">
+            <summary>
+            LinkField.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLinkParameter.Link">
+            <summary>
+            мастеровая ссылка на шапку NewPlatform.Flexberry.GIS.DataLink.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.DataLinkParameter.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.DataLinkParameter.Views.DataLinkParameterD">
+            <summary>
+            "DataLinkParameterD" view.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.DetailArrayOfDataLinkParameter">
+            <summary>
+            Detail array of DataLinkParameter.
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DetailArrayOfDataLinkParameter.#ctor(NewPlatform.Flexberry.GIS.DataLink)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type DataLinkParameter by index.
+            </summary>
+            <summary>
+            Adds object with type DataLinkParameter.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.LayerLink">
+            <summary>
+            LayerLink.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerLink.AllowShow">
+            <summary>
+            AllowShow.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerLink.MapObjectSetting">
+            <summary>
+            LayerLink.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerLink.LinkParameter">
+            <summary>
+            LayerLink.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerLink.Layer">
+            <summary>
+            мастеровая ссылка на шапку NewPlatform.Flexberry.GIS.MapLayer.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.LayerLink.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerLink.Views.LayerLinkD">
+            <summary>
+            "LayerLinkD" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerLink.Views.LayerLinkE">
+            <summary>
+            "LayerLinkE" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerLink.Views.LayerLinkI">
+            <summary>
+            Для загрузка данных при идентификации.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerLink.Views.LayerLinkQ">
+            <summary>
+            Для query запроса при переходе на карту.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.DetailArrayOfLayerLink">
+            <summary>
+            Detail array of LayerLink.
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DetailArrayOfLayerLink.#ctor(NewPlatform.Flexberry.GIS.MapLayer)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type LayerLink by index.
+            </summary>
+            <summary>
+            Adds object with type LayerLink.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.LayerMetadata">
+            <summary>
+            Layer metadata.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.Type">
+            <summary>
+            Type.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.CoordinateReferenceSystem">
+            <summary>
+            CoordinateReferenceSystem.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.Settings">
+            <summary>
+            Settings.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.CreateTime">
+            <summary>
+            Время создания объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.Creator">
+            <summary>
+            Создатель объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.EditTime">
+            <summary>
+            Время последнего редактирования объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.Editor">
+            <summary>
+            Последний редактор объекта.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.LayerMetadata.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.Views.AuditView">
+            <summary>
+            "AuditView" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.Views.LayerMetadataE">
+            <summary>
+            "LayerMetadataE" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LayerMetadata.Views.LayerMetadataL">
+            <summary>
+            "LayerMetadataL" view.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings">
+            <summary>
+            Audit class settings.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.AuditEnabled">
+            <summary>
+            Включён ли аудит для класса.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.UseDefaultView">
+            <summary>
+            Использовать имя представления для аудита по умолчанию.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.SelectAudit">
+            <summary>
+            Включён ли аудит операции чтения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.SelectAuditViewName">
+            <summary>
+            Имя представления для аудирования операции чтения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.InsertAudit">
+            <summary>
+            Включён ли аудит операции создания.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.InsertAuditViewName">
+            <summary>
+            Имя представления для аудирования операции создания.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.UpdateAudit">
+            <summary>
+            Включён ли аудит операции изменения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.UpdateAuditViewName">
+            <summary>
+            Имя представления для аудирования операции изменения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.DeleteAudit">
+            <summary>
+            Включён ли аудит операции удаления.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.DeleteAuditViewName">
+            <summary>
+            Имя представления для аудирования операции удаления.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.FormUrl">
+            <summary>
+            Путь к форме просмотра результатов аудита.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.WriteMode">
+            <summary>
+            Режим записи данных аудита (синхронный или асинхронный).
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.PrunningLength">
+            <summary>
+            Максимальная длина сохраняемого значения поля (если 0, то строка обрезаться не будет).
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.ShowPrimaryKey">
+            <summary>
+            Показывать ли пользователям в изменениях первичные ключи.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.KeepOldValue">
+            <summary>
+            Сохранять ли старое значение.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.Compress">
+            <summary>
+            Сжимать ли сохраняемые значения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.LayerMetadata.AuditSettings.KeepAllValues">
+            <summary>
+            Сохранять ли все значения атрибутов, а не только изменяемые.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.LinkParameter">
+            <summary>
+            LinkParameter.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LinkParameter.ObjectField">
+            <summary>
+            ObjectField.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LinkParameter.LayerField">
+            <summary>
+            LayerField.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LinkParameter.Expression">
+            <summary>
+            Expression.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LinkParameter.QueryKey">
+            <summary>
+            QueryKey.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LinkParameter.LinkField">
+            <summary>
+            LinkField.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LinkParameter.LayerLink">
+            <summary>
+            мастеровая ссылка на шапку NewPlatform.Flexberry.GIS.LayerLink.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.LinkParameter.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LinkParameter.Views.LinkParameter">
+            <summary>
+            "LinkParameter" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.LinkParameter.Views.LinkParameterD">
+            <summary>
+            "LinkParameterD" view.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.DetailArrayOfLinkParameter">
+            <summary>
+            Detail array of LinkParameter.
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DetailArrayOfLinkParameter.#ctor(NewPlatform.Flexberry.GIS.LayerLink)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type LinkParameter by index.
+            </summary>
+            <summary>
+            Adds object with type LinkParameter.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.Map">
+            <summary>
+            Map.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Lat">
+            <summary>
+            Lat.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Lng">
+            <summary>
+            Lng.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Zoom">
+            <summary>
+            Zoom.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Public">
+            <summary>
+            Public.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.CoordinateReferenceSystem">
+            <summary>
+            CoordinateReferenceSystem.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.CreateTime">
+            <summary>
+            Время создания объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Creator">
+            <summary>
+            Создатель объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.EditTime">
+            <summary>
+            Время последнего редактирования объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Editor">
+            <summary>
+            Последний редактор объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.MapLayer">
+            <summary>
+            Map.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.Map.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Views.AuditView">
+            <summary>
+            "AuditView" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Views.MapE">
+            <summary>
+            "MapE" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Views.MapL">
+            <summary>
+            "MapL" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Map.Views.Map">
+            <summary>
+            "Map" view.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.Map.AuditSettings">
+            <summary>
+            Audit class settings.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.AuditEnabled">
+            <summary>
+            Включён ли аудит для класса.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.UseDefaultView">
+            <summary>
+            Использовать имя представления для аудита по умолчанию.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.SelectAudit">
+            <summary>
+            Включён ли аудит операции чтения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.SelectAuditViewName">
+            <summary>
+            Имя представления для аудирования операции чтения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.InsertAudit">
+            <summary>
+            Включён ли аудит операции создания.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.InsertAuditViewName">
+            <summary>
+            Имя представления для аудирования операции создания.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.UpdateAudit">
+            <summary>
+            Включён ли аудит операции изменения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.UpdateAuditViewName">
+            <summary>
+            Имя представления для аудирования операции изменения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.DeleteAudit">
+            <summary>
+            Включён ли аудит операции удаления.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.DeleteAuditViewName">
+            <summary>
+            Имя представления для аудирования операции удаления.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.FormUrl">
+            <summary>
+            Путь к форме просмотра результатов аудита.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.WriteMode">
+            <summary>
+            Режим записи данных аудита (синхронный или асинхронный).
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.PrunningLength">
+            <summary>
+            Максимальная длина сохраняемого значения поля (если 0, то строка обрезаться не будет).
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.ShowPrimaryKey">
+            <summary>
+            Показывать ли пользователям в изменениях первичные ключи.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.KeepOldValue">
+            <summary>
+            Сохранять ли старое значение.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.Compress">
+            <summary>
+            Сжимать ли сохраняемые значения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Map.AuditSettings.KeepAllValues">
+            <summary>
+            Сохранять ли все значения атрибутов, а не только изменяемые.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.MapLayer">
+            <summary>
+            Map layer.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Type">
+            <summary>
+            Type.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Visibility">
+            <summary>
+            Visibility.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Settings">
+            <summary>
+            Settings.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.CoordinateReferenceSystem">
+            <summary>
+            CoordinateReferenceSystem.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Index">
+            <summary>
+            Index.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.CreateTime">
+            <summary>
+            Время создания объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Creator">
+            <summary>
+            Создатель объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.EditTime">
+            <summary>
+            Время последнего редактирования объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Editor">
+            <summary>
+            Последний редактор объекта.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Parent">
+            <summary>
+            Map layer.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.LayerLink">
+            <summary>
+            Map layer.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Map">
+            <summary>
+            мастеровая ссылка на шапку NewPlatform.Flexberry.GIS.Map.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.MapLayer.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Views.AuditView">
+            <summary>
+            "AuditView" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Views.MapLayerD">
+            <summary>
+            "MapLayerD" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Views.MapLayerE">
+            <summary>
+            "MapLayerE" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapLayer.Views.MapLayerL">
+            <summary>
+            "MapLayerL" view.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings">
+            <summary>
+            Audit class settings.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.AuditEnabled">
+            <summary>
+            Включён ли аудит для класса.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.UseDefaultView">
+            <summary>
+            Использовать имя представления для аудита по умолчанию.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.SelectAudit">
+            <summary>
+            Включён ли аудит операции чтения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.SelectAuditViewName">
+            <summary>
+            Имя представления для аудирования операции чтения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.InsertAudit">
+            <summary>
+            Включён ли аудит операции создания.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.InsertAuditViewName">
+            <summary>
+            Имя представления для аудирования операции создания.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.UpdateAudit">
+            <summary>
+            Включён ли аудит операции изменения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.UpdateAuditViewName">
+            <summary>
+            Имя представления для аудирования операции изменения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.DeleteAudit">
+            <summary>
+            Включён ли аудит операции удаления.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.DeleteAuditViewName">
+            <summary>
+            Имя представления для аудирования операции удаления.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.FormUrl">
+            <summary>
+            Путь к форме просмотра результатов аудита.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.WriteMode">
+            <summary>
+            Режим записи данных аудита (синхронный или асинхронный).
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.PrunningLength">
+            <summary>
+            Максимальная длина сохраняемого значения поля (если 0, то строка обрезаться не будет).
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.ShowPrimaryKey">
+            <summary>
+            Показывать ли пользователям в изменениях первичные ключи.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.KeepOldValue">
+            <summary>
+            Сохранять ли старое значение.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.Compress">
+            <summary>
+            Сжимать ли сохраняемые значения.
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.MapLayer.AuditSettings.KeepAllValues">
+            <summary>
+            Сохранять ли все значения атрибутов, а не только изменяемые.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.DetailArrayOfMapLayer">
+            <summary>
+            Detail array of MapLayer.
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DetailArrayOfMapLayer.#ctor(NewPlatform.Flexberry.GIS.Map)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type MapLayer by index.
+            </summary>
+            <summary>
+            Adds object with type MapLayer.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.MapObjectSetting">
+            <summary>
+            MapObjectSetting.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapObjectSetting.TypeName">
+            <summary>
+            TypeName.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapObjectSetting.ListForm">
+            <summary>
+            ListForm.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapObjectSetting.EditForm">
+            <summary>
+            EditForm.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapObjectSetting.DefaultMap">
+            <summary>
+            MapObjectSetting.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapObjectSetting.DataLink">
+            <summary>
+            MapObjectSetting.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.MapObjectSetting.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapObjectSetting.Views.MapObjectSetting">
+            <summary>
+            "MapObjectSetting" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapObjectSetting.Views.MapObjectSettingE">
+            <summary>
+            "MapObjectSettingE" view.
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapObjectSetting.Views.MapObjectSettingL">
+            <summary>
+            "MapObjectSettingL" view.
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.BaseAttributiveTriggerGenerator">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.BaseAttributiveTriggerGenerator.ExpressionFields">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.BaseAttributiveTriggerGenerator.SimpleFields">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.BaseAttributiveTriggerGenerator.#ctor(NewPlatform.Flexberry.GIS.DataLink,System.String,System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.BaseAttributiveTriggerGenerator.GenerateTriggers(System.Data.IDbCommand)">
+            <summary>Сгенерировать триггеры в текущей команде Sql</summary>
+            <param name="sqlCommand">sql command с открытым соединением и, если требуется, транзакцией.</param>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.BaseAttributiveTriggerGenerator.DropTriggers(System.Data.IDbCommand)">
+            <summary>Удалить триггеры из указанной БД</summary>
+            <param name="sqlCommand">sql command с открытым соединением и, если требуется, транзакцией.</param>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.BaseSpatialTriggerGenerator">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.BaseSpatialTriggerGenerator.ExpressionFields">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.BaseSpatialTriggerGenerator.SimpleFields">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.BaseSpatialTriggerGenerator.Chain">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.BaseSpatialTriggerGenerator.ProcedureName">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.BaseSpatialTriggerGenerator.#ctor(NewPlatform.Flexberry.GIS.DataLink,System.String,System.String,System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.BaseSpatialTriggerGenerator.GenerateTriggers(System.Data.IDbCommand)">
+            <summary>Сгенерировать триггеры в текущей команде Sql</summary>
+            <param name="sqlCommand">sql command с открытым соединением и, если требуется, транзакцией.</param>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.BaseSpatialTriggerGenerator.DropTriggers(System.Data.IDbCommand)">
+            <summary>Удалить триггеры из указанной БД</summary>
+            <param name="sqlCommand">sql command с открытым соединением и, если требуется, транзакцией.</param>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.Warnings">
+            <summary>
+            Некритичные ошибки
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.RootType">
+            <summary>
+            Тип объекта для которого генерируются триггеры
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.Layer">
+            <summary>
+            Имя таблицы в базе геоданных
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.ClearWithoutLink">
+            <summary>
+            Очищать без ссылки
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.LinkParams">
+            <summary>
+            Поля привязки
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.TriggerKey">
+            <summary>
+            Суффикс генерируемых триггеров
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.TriggerPrefix">
+            <summary>
+            Префикс генерируемых триггеров
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.Owner">
+            <summary>
+            Права
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.DataBaseHelper">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.#ctor(NewPlatform.Flexberry.GIS.DataLink,System.String,System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.BaseTriggerGenerator.ObjectType(NewPlatform.Flexberry.GIS.DataLink)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.Chain.#ctor(System.Type,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="objectType">Тип объекта</param>
+            <param name="prefix"></param>
+            <param name="parentAlias">Алиас предыдущего свойства</param>
+            <param name="index">Индекс свойства в цепочке</param>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Chain.DeclaredType">
+            <summary>
+            Тип хранимого объекта
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Chain.TableName">
+            <summary>
+            Таблица текущего класса
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Chain.FullTableName">
+            <summary>
+            Таблица текущего класса
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Chain.BasePrefix">
+            <summary>
+            Префикс таблицы
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Chain.PrimaryKey">
+            <summary>
+            Поле первичного ключа по которому дочерние таблицы связываются с данной
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Chain.Alias">
+            <summary>
+            Алиас в запросе
+            </summary>
+        </member>
+        <member name="F:NewPlatform.Flexberry.GIS.Chain.LookForUpdateFields">
+            <summary>
+            Поля, при изменении которых надо прогонять триггер
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.Chain.Add(System.String)">
+            <summary>
+            Добавляет элемент в цепочку
+            </summary>
+            <param name="chain"></param>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.Chain.FindChain(System.String)">
+            <summary>
+            Находит цепочку, которая начинается с таблицы
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.Chain.FromTableNames">
+            <summary>
+            Имена таблиц на которые присутствуют в цепочке
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.Chain.UpdatedFields(System.String)">
+            <summary>
+            Поля, которые обновляются для таблицы
+            </summary>
+            <param name="fromTableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.Format(System.String)">
+            <summary>
+            Формат экранирования свойства
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.FromStatement(System.String,NewPlatform.Flexberry.GIS.Chain)">
+            <summary>
+            Формирование блока From по таблицам цепочки
+            </summary>
+            <param name="insertedTableName"></param>
+            <param name="chain"></param>
+            <param name="join"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.DropTriggersCommand(System.String,System.String)">
+            <summary>
+            Формирование команды удаления триггеров
+            </summary>
+            <param name="triggerKey"></param>
+            <param name="triggerPrefix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.DropSpatialTriggersCommand(System.String)">
+            <summary>
+            Формирование команды удаления дополнительных опций для геоданных
+            </summary>
+            <param name="triggerName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.CommandTextForTriggerForSpatialRecordsCount(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.CommandTextForTriggerForSpatialRecordsCountOnDelete(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.InitialUpdateCommandForSpatialRecordsCount(System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.CreateStoredProcedureForUnjoinSpatialCounter(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.CommandTextForTriggerForUpdateSpatialObject(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,NewPlatform.Flexberry.GIS.Chain,System.Collections.Generic.List{NewPlatform.Flexberry.GIS.MapExpressionField},System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.Update(NewPlatform.Flexberry.GIS.MapField,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.DeleteTrigger(System.String,System.String,System.Type,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{NewPlatform.Flexberry.GIS.MapExpressionField},System.Collections.Generic.Dictionary{System.String,NewPlatform.Flexberry.GIS.MapSimpleField},System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.UpdateTrigger(System.String,System.String,System.Type,System.Collections.Generic.Dictionary{System.String,System.String},System.String,NewPlatform.Flexberry.GIS.MapField,System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.SetStatement(NewPlatform.Flexberry.GIS.MapSimpleField)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.DataBaseHelper.SetStatement(NewPlatform.Flexberry.GIS.MapExpressionField)">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapSimpleField.LayerObjectFields">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.MapSimpleField.#ctor(System.Type,System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapExpressionField.LayerField">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapExpressionField.Expression">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:NewPlatform.Flexberry.GIS.MapExpressionField.Paths">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.MapExpressionField.#ctor(System.Type,System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.PGDataBaseHelper">
+            <summary>
+            Хелпер для языка PGSQL
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.FromStatement(System.String,NewPlatform.Flexberry.GIS.Chain)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.DropTriggersCommand(System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.DropSpatialTriggersCommand(System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.CommandTextForTriggerForSpatialRecordsCount(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.CommandTextForTriggerForSpatialRecordsCountOnDelete(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.InitialUpdateCommandForSpatialRecordsCount(System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.CreateStoredProcedureForUnjoinSpatialCounter(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.CommandTextForTriggerForUpdateSpatialObject(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,NewPlatform.Flexberry.GIS.Chain,System.Collections.Generic.List{NewPlatform.Flexberry.GIS.MapExpressionField},System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.Update(NewPlatform.Flexberry.GIS.MapField,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.DeleteTrigger(System.String,System.String,System.Type,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{NewPlatform.Flexberry.GIS.MapExpressionField},System.Collections.Generic.Dictionary{System.String,NewPlatform.Flexberry.GIS.MapSimpleField},System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.UpdateTrigger(System.String,System.String,System.Type,System.Collections.Generic.Dictionary{System.String,System.String},System.String,NewPlatform.Flexberry.GIS.MapField,System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.SetStatement(NewPlatform.Flexberry.GIS.MapSimpleField)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.PGDataBaseHelper.SetStatement(NewPlatform.Flexberry.GIS.MapExpressionField)">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:NewPlatform.Flexberry.GIS.SQLDataBaseHelper">
+            <summary>
+            Хелпер для языка SQL
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.FromStatement(System.String,NewPlatform.Flexberry.GIS.Chain)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.DropTriggersCommand(System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.DropSpatialTriggersCommand(System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.CommandTextForTriggerForSpatialRecordsCount(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.CommandTextForTriggerForSpatialRecordsCountOnDelete(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.InitialUpdateCommandForSpatialRecordsCount(System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.CreateStoredProcedureForUnjoinSpatialCounter(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},NewPlatform.Flexberry.GIS.Chain,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.CommandTextForTriggerForUpdateSpatialObject(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,NewPlatform.Flexberry.GIS.Chain,System.Collections.Generic.List{NewPlatform.Flexberry.GIS.MapExpressionField},System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.Update(NewPlatform.Flexberry.GIS.MapField,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.DeleteTrigger(System.String,System.String,System.Type,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{NewPlatform.Flexberry.GIS.MapExpressionField},System.Collections.Generic.Dictionary{System.String,NewPlatform.Flexberry.GIS.MapSimpleField},System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.UpdateTrigger(System.String,System.String,System.Type,System.Collections.Generic.Dictionary{System.String,System.String},System.String,NewPlatform.Flexberry.GIS.MapField,System.String,System.String)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.SetStatement(NewPlatform.Flexberry.GIS.MapSimpleField)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:NewPlatform.Flexberry.GIS.SQLDataBaseHelper.SetStatement(NewPlatform.Flexberry.GIS.MapExpressionField)">
+            <summary>
+            </summary>
+        </member>
+    </members>
+</doc>

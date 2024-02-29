@@ -1,0 +1,153 @@
+<h3 class="ui header">{{t 'forms.i-i-s-o-h-c-heat-consumption-object-e.caption'}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=model.errors}}
+    </div>
+  </div>
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button type="submit" class="ui button save-button" {{action 'save'}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button type="submit" class="ui button save-del-button" {{action 'delete'}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button type="submit" class="ui button close-button" {{action 'close'}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field">
+  {{
+    flexberry-field
+    placeholder=(t 'components.flexberry-field.placeholder')
+    readonly=readonly
+    required=true
+    value=model.objectName
+    class=(if model.errors.objectName 'error' '')
+    label=(t 'forms.i-i-s-o-h-c-heat-consumption-object-e.objectName-caption')
+  }}
+  {{flexberry-validationmessage error=model.errors.objectName pointing="pointing"}}
+</div>
+
+<div class="field">
+  <label>{{t 'forms.i-i-s-o-h-c-heat-consumption-object-e.registrationDate-caption'}}</label>
+  {{
+    flexberry-datepicker
+    placeholder=(t 'components.flexberry-datepicker.placeholder')
+    readonly=readonly
+    value=model.registrationDate
+    class=(if model.errors.registrationDate 'error' '')
+  }}
+  {{flexberry-validationmessage error=model.errors.registrationDate pointing="pointing"}}
+</div>
+
+<div class="field">
+  {{
+    flexberry-field
+    placeholder=(t 'components.flexberry-field.placeholder')
+    readonly=readonly
+    required=true
+    value=model.objectSquare
+    class=(if model.errors.objectSquare 'error' '')
+    label=(t 'forms.i-i-s-o-h-c-heat-consumption-object-e.objectSquare-caption')
+  }}
+  {{flexberry-validationmessage error=model.errors.objectSquare pointing="pointing"}}
+</div>
+
+<div class="field">
+  {{
+    flexberry-field
+    placeholder=(t 'components.flexberry-field.placeholder')
+    readonly=readonly
+    required=true
+    value=model.qRCode
+    class=(if model.errors.qRCode 'error' '')
+    label=(t 'forms.i-i-s-o-h-c-heat-consumption-object-e.qRCode-caption')
+  }}
+  {{flexberry-validationmessage error=model.errors.qRCode pointing="pointing"}}
+</div>
+
+<div class="field">
+  <label>{{t 'forms.i-i-s-o-h-c-heat-consumption-object-e.building-caption'}}</label>
+  {{
+    flexberry-lookup
+    choose='showLookupDialog'
+    remove='removeLookupValue'
+    value=model.building
+    
+    relationName='building'
+    projection='BuildingL'
+    title=(t 'forms.i-i-s-o-h-c-heat-consumption-object-e.building-caption')
+    readonly=readonly
+    componentName="buildingLookup"
+  }}
+  {{flexberry-validationmessage error=model.errors.building pointing="pointing"}}
+</div>
+
+<div class="field">
+  {{
+    flexberry-field
+    placeholder=(t 'components.flexberry-field.placeholder')
+    readonly=true
+    required=true
+    value=model.building.address
+    class=(if model.errors.building.address 'error' '')
+    label=(t 'forms.i-i-s-o-h-c-heat-consumption-object-e.building.address-caption')
+  }}
+  {{flexberry-validationmessage error=model.errors.building.address pointing="pointing"}}
+</div>
+
+<div class="field">
+  <label>{{t 'forms.i-i-s-o-h-c-heat-consumption-object-e.consumer-caption'}}</label>
+  {{
+    flexberry-lookup
+    choose='showLookupDialog'
+    remove='removeLookupValue'
+    value=model.consumer
+    
+    relationName='consumer'
+    projection='ConsumerL'
+    title=(t 'forms.i-i-s-o-h-c-heat-consumption-object-e.consumer-caption')
+    readonly=readonly
+    componentName="consumerLookup"
+  }}
+  {{flexberry-validationmessage error=model.errors.consumer pointing="pointing"}}
+</div>
+
+<div class="field">
+  {{
+    flexberry-field
+    placeholder=(t 'components.flexberry-field.placeholder')
+    readonly=true
+    required=true
+    value=model.consumer.personalAccount
+    class=(if model.errors.consumer.personalAccount 'error' '')
+    label=(t 'forms.i-i-s-o-h-c-heat-consumption-object-e.consumer.personalAccount-caption')
+  }}
+  {{flexberry-validationmessage error=model.errors.consumer.personalAccount pointing="pointing"}}
+</div>
+
+<div class="field">
+  <label>{{t 'forms.i-i-s-o-h-c-heat-consumption-object-e.networkSection-caption'}}</label>
+  {{
+    flexberry-groupedit
+    componentName="networkSectionGroupEdit"
+    mainModelProjection=modelProjection
+    modelProjection=modelProjection.attributes.networkSection
+    content=model.networkSection
+    readonly=readonly
+    orderable=false
+    class=(if model.errors.networkSection 'error' '')
+  }}
+  {{flexberry-validationmessage error=model.errors.networkSection pointing="pointing"}}
+</div>
+
+</form>

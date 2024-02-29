@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "NetworkArea",
+      "projection": "NetworkAreaL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Building",
+  "name": "IISOHCBuildingE",
+  "className": "BuildingE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-o-h-c-building",
+      "modelProjection": "BuildingE"
+    }
+  ]
+}

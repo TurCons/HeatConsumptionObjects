@@ -1,0 +1,43 @@
+{{flexberry-error error=error}}
+<h3>{{t 'ksdjhflskdjh;'}}</h3>
+<div class="row">
+  {{flexberry-objectlistview
+    editFormRoute=editFormRoute
+    modelName="i-i-s-o-h-c-extended-audit-entity"
+    modelProjection=modelProjection
+    content=model
+    createNewButton=false
+    refreshButton=true
+    colsConfigButton=true
+    exportExcelButton=true
+    deleteButton=false
+    sorting=computedSorting
+    orderable=true
+    showCheckBoxInRow=false
+    showDeleteButtonInRow=false
+    showDeleteMenuItemInRow=false
+    sortByColumn=(action "sortByColumn")
+    addColumnToSorting=(action "addColumnToSorting")
+    pages=pages
+    perPageValue=perPageValue
+    perPageValues=perPageValues
+    recordsTotalCount=recordsTotalCount
+    hasPreviousPage=hasPreviousPage
+    hasNextPage=hasNextPage
+    previousPage=(action "previousPage")
+    gotoPage=(action "gotoPage")
+    nextPage=(action "nextPage")
+    componentName="IISOHCExtendedAuditEntityL"
+    tableStriped=false
+    enableFilters=true
+    filters=filters
+    applyFilters=(action "applyFilters")
+    resetFilters=(action "resetFilters")
+    componentForFilter=(action "componentForFilter")
+    conditionsByType=(action "conditionsByType")
+    filterButton=true
+    filterText=filter
+    filterByAllWords=filterByAllWords
+    filterByAnyMatch=(action "filterByAnyMatch")
+  }}
+</div>

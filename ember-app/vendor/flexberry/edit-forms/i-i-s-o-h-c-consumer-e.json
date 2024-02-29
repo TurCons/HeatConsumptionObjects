@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Consumer",
+  "name": "IISOHCConsumerE",
+  "className": "ConsumerE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-o-h-c-consumer",
+      "modelProjection": "ConsumerE"
+    }
+  ]
+}

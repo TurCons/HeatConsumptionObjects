@@ -1,0 +1,12 @@
+<h3 class="ui header">Login Form</h3>
+<form class="ui form flexberry-vertical-form" role="form" {{action "onLogin" username password on="submit"}}>
+    <div>
+        <label>Логин: </label>
+        {{input type="text" value=username}}
+    </div>
+    <div>
+        <label>Пароль: </label>
+        {{input type="password" value=password}}
+    </div>
+    <button type="submit">Login</button>
+</form>
